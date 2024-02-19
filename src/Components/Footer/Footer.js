@@ -9,11 +9,11 @@ export const Footer = () => {
                     <div className="col-lg-2 text-center text-lg-start">
                         <h5>Categories</h5>
                         <ul>
-                            <li><a href="">Horror</a></li>
-                            <li><a href="">History</a></li>
-                            <li><a href="">Biography</a></li>
-                            <li><a href="">Science Fiction</a></li>
-                            <li><a href="">Romance</a></li>
+                            <li><a href="#">Horror</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Biography</a></li>
+                            <li><a href="#">Science Fiction</a></li>
+                            <li><a href="#">Romance</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-7 text-center px-3 ps-lg-5 mt-5 mt-lg-0 center-content">

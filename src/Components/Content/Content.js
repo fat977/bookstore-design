@@ -25,7 +25,7 @@ export const Content = () => {
     };
 
     const [items, setItems] = useState(Books);
-    const [active, setActive] = useState(false);
+ /*    const [active, setActive] = useState(false);
     const filterItem = (categItem) => {
         const updateItems = Books.filter((curElem) => {
             return curElem.category === categItem;
@@ -33,7 +33,7 @@ export const Content = () => {
 
         setItems(updateItems);
         setActive(true);
-    };
+    }; */
 
     return (
         <section className="best-selling">
@@ -45,7 +45,7 @@ export const Content = () => {
                         const { id, name, image, price,sale,value } = elem;
                         return (
                             <div className="item" key={id}>
-                                <img src={image} alt="Image"/>
+                                <img src={image} alt={image}/>
                                 <div className='options'>
                                     <i className="fa-solid fa-cart-shopping me-3"></i>
                                     <i className="fa-regular fa-heart me-3"></i>
