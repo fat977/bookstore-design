@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5bc8908.css",
+    "main.js": "/static/js/main.2a3d84b9.js",
+    "static/media/transparent.png": "/static/media/transparent.d368f1c7030d42ae9f22.png",
+    "static/media/kisspng-book-stock-photography-clip-art-vector-background-books-5aae4d0b1dd4c1.png": "/static/media/kisspng-book-stock-photography-clip-art-vector-background-books-5aae4d0b1dd4c1.5261269815213724271222.1142512164d17a010623.png",
+    "static/media/kisspng-book-image-magic-author-portable-network-graphics-5c1ca352b2c6c4.png": "/static/media/kisspng-book-image-magic-author-portable-network-graphics-5c1ca352b2c6c4.9971151115453806907323.39fcbe1867709d87b087.png",
+    "static/media/3z8425PbLIE44qteHf2HG2GVv1D9jx1SeeW9cYfw.jpg": "/static/media/3z8425PbLIE44qteHf2HG2GVv1D9jx1SeeW9cYfw.c1ec74d418f084a79c84.jpg",
+    "static/media/Simple-Location-Picker.webp": "/static/media/Simple-Location-Picker.79119ff476f7e26ab3f7.webp",
+    "static/media/ALCu5fCXuDFEtsY1uOu24qvqrVHbbhgUGseSFZuJ.jpg": "/static/media/ALCu5fCXuDFEtsY1uOu24qvqrVHbbhgUGseSFZuJ.9af3291671aeb8d43fc8.jpg",
+    "static/media/KoVAdeIlPCZcX4ktNLEBt71H7or0RKuXyOcntpJQ.jpg": "/static/media/KoVAdeIlPCZcX4ktNLEBt71H7or0RKuXyOcntpJQ.68e1a62d6d4e73d1dd9a.jpg",
+    "static/media/UsWs7187dNS2bVawEAxl5dwE5X1aPC70GlMf6utX.jpg": "/static/media/UsWs7187dNS2bVawEAxl5dwE5X1aPC70GlMf6utX.c63b75045dd5386e6ffc.jpg",
+    "static/media/10-Steps-for-Establishing-Team-Norms-center-for-creative-leadership.jpg.webp": "/static/media/10-Steps-for-Establishing-Team-Norms-center-for-creative-leadership.jpg.39a6f505cdf11acbe369.webp",
+    "static/media/modern-book-design-1b.jpg": "/static/media/modern-book-design-1b.dc6a3f2e397319902736.jpg",
+    "static/media/F8SJmgyXMTfSJVUD9P42fygw4H3q9cpoakhjnark.jpg": "/static/media/F8SJmgyXMTfSJVUD9P42fygw4H3q9cpoakhjnark.7ca59af195ca0301db98.jpg",
+    "static/media/l0EI1DRUksti7Llos071xkEyvKkIkeJ1xKuLgXEM.jpg": "/static/media/l0EI1DRUksti7Llos071xkEyvKkIkeJ1xKuLgXEM.a184feaf79e5e45fa9ab.jpg",
+    "static/media/1-2.png": "/static/media/1-2.9b90700a9d7c4a25ba56.png",
+    "static/media/TL04F9cmUsSROFwVMFFDFlkJ2cUKlHNV1t6cBSgW.jpg": "/static/media/TL04F9cmUsSROFwVMFFDFlkJ2cUKlHNV1t6cBSgW.440ef5f8f39b14a7206f.jpg",
+    "static/media/149071.png": "/static/media/149071.a6143582309785dca610.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.f5bc8908.css.map": "/static/css/main.f5bc8908.css.map",
+    "main.2a3d84b9.js.map": "/static/js/main.2a3d84b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5bc8908.css",
+    "static/js/main.2a3d84b9.js"
+  ]
+}
