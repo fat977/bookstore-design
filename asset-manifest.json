@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f5bc8908.css",
-    "main.js": "/static/js/main.3d3a848e.js",
+    "main.js": "/static/js/main.e0a7abb7.js",
     "static/media/transparent.png": "/static/media/transparent.d368f1c7030d42ae9f22.png",
     "static/media/kisspng-book-stock-photography-clip-art-vector-background-books-5aae4d0b1dd4c1.png": "/static/media/kisspng-book-stock-photography-clip-art-vector-background-books-5aae4d0b1dd4c1.5261269815213724271222.1142512164d17a010623.png",
     "static/media/kisspng-book-image-magic-author-portable-network-graphics-5c1ca352b2c6c4.png": "/static/media/kisspng-book-image-magic-author-portable-network-graphics-5c1ca352b2c6c4.9971151115453806907323.39fcbe1867709d87b087.png",
@@ -22,10 +22,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.f5bc8908.css.map": "/static/css/main.f5bc8908.css.map",
-    "main.3d3a848e.js.map": "/static/js/main.3d3a848e.js.map"
+    "main.e0a7abb7.js.map": "/static/js/main.e0a7abb7.js.map"
   },
   "entrypoints": [
     "static/css/main.f5bc8908.css",
-    "static/js/main.3d3a848e.js"
+    "static/js/main.e0a7abb7.js"
   ]
 }
