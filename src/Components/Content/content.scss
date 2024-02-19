@@ -1,0 +1,17 @@
+@import '../../assets/style/variables';
+@import '../../assets/style/item-style';
+
+.best-selling {
+    margin-top: 650px;
+    padding: 0 0 50px 0;
+    position: relative;
+
+    h2 {
+        font-weight: 700;
+        margin: 14px 0 75px 0;
+    }
+
+    .item {
+       @include item;
+    }
+}

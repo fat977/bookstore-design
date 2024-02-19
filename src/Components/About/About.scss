@@ -1,0 +1,49 @@
+@import '../../assets/style/variables';
+
+ol li .link{
+    color: $main-color;
+}
+
+.about {
+    position: relative;
+
+    .about-header {
+        height: 650px;
+        margin-bottom: 250px;
+    }
+    .content {
+        position: absolute;
+        z-index: 1;
+        background: $white-color;
+        height: 470px;
+        width: 600px;
+        top: 400px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .content{
+       width: 100%;
+       top: 200px;
+    }
+
+    .about-header {
+        height: 300px;
+        margin-bottom: 500px;
+    }
+
+}
+
+.about-img{
+    height: 300px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90.21deg, rgba(241, 77, 93, 0.209) -5.91%, #21213a22 111.58%);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(90.21deg, rgba(241, 77, 93, 0.209) -5.91%, #21213a22 111.58%);}

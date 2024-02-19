@@ -1,0 +1,43 @@
+@import '../../assets/style/variables';
+
+.footer {
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            margin-top: 15px;
+            a {
+                text-decoration: none;
+                color: $second-color;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    .center-content{
+        img{
+            width: 40%;
+        }
+        .social i:hover {
+            color: $main-color;
+        }
+    }
+
+    .contact {
+        .flex-column {
+            padding-left: 65px;
+            i {
+                margin-top: 15px;
+                color: $second-color;
+            }
+        }
+    }
+
+    .bottom-footer {
+        background-color: $second-color;
+    }
+
+}

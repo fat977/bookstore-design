@@ -1,0 +1,46 @@
+@import '../../assets/style/variables';
+@import '../../assets/style/item-style';
+
+.breadcrumb {
+    ol li .link {
+        color: $main-color;
+    }
+}
+
+.form-check {
+    margin-top: 20px;
+
+    .form-check-input[type=checkbox] {
+        border-radius: 50px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:checked {
+            background-color: $main-color;
+            border-color: $main-color;
+        }
+    }
+}
+
+.range-slider {
+    .range-slider__thumb, .range-slider__range {
+        background: $main-color !important;
+    }
+}
+
+.filter-results {
+    .form-select {
+        border-radius: 50px;
+        border-color: $main-color;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .item {
+        @include item;
+    }
+}

@@ -1,0 +1,57 @@
+@import '../../assets/style/variables';
+
+.sale {
+  .offer-details{
+    .offer-value {
+      font-size: 90px;
+      font-weight: 700;
+      background-color: $main-color;
+      width: 400px;
+    }
+    .offer-button {
+      background-color: transparent;
+      border: 1px solid $second-color;
+      box-sizing: border-box;
+      color: $second-color;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      padding: 16px 23px;
+      position: relative;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      &:hover{
+        background-color: transparent;
+        cursor: pointer;
+        &::before{
+          background-color: $main-color;
+        }
+      }
+      &::before{
+        background-color: rgba(241, 77, 93, 0.146);
+        content: "";
+        height: calc(100% + 3px);
+        position: absolute;
+        right: -7px;
+        top: -9px;
+        transition: background-color 300ms ease-in;
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  
+    .offer-button:hover,
+    .offer-button:active {
+      outline: 0;
+    }
+  
+  }
+  
+  @media (min-width: 768px) {
+    .offer-button {
+      padding: 16px 32px;
+    }
+  }
+}

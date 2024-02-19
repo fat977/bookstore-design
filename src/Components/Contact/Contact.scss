@@ -1,0 +1,25 @@
+@import '../../assets/style/master-styles';
+
+ol li .link{
+    color: $main-color;
+}
+
+.location img{
+    height: 400px;
+}
+
+form.message{
+    input{
+        border-radius: 50px;
+    }
+    .form-control:focus {
+       @include focus;
+    }
+    button.send-msg{
+        @include btn-style;
+    }
+} 
+
+
+
+

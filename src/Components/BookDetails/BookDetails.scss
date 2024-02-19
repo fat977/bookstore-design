@@ -1,0 +1,58 @@
+@import '../../assets/style/master-styles';
+
+.book-img img{
+    height: 400px;
+    width: 100%;
+}
+
+.details{
+    ul{
+        list-style-type: none;
+    }
+}
+
+.buttons{
+    button{
+        @include btn-style;
+        width: 40%;
+        margin-right: 25px;
+        &:hover{
+            color: $white-color;
+            background: linear-gradient(90.21deg, $second-color -5.91%,$main-color 111.58%);
+        }
+    }
+} 
+
+.nav-tabs{
+    li a{
+        color: $main-color;
+        &:hover{
+            color: $second-color;
+        }
+    }
+} 
+
+.tab-content{
+    .author-img img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .review img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .btn-submit{
+        @include btn-style;
+    }
+    
+    .form-control:focus {
+        @include focus;
+    }
+}
+
+.write-review{
+    color: $main-color;
+}

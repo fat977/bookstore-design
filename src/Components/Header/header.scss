@@ -1,0 +1,29 @@
+@import '../../assets/style/variables';
+@import '../../assets/style/btn';
+
+.header {
+    position: relative;
+    .img-header {
+        width: 900px;
+        height: 500px;
+    }
+
+    .box {
+        position: absolute;
+        z-index: 1;
+        background: $white-color;
+        height: 350px;
+        width: 400px;
+        top: 50px;
+        box-shadow: 21px 21px rgba(236, 230, 230, 0.7);
+
+        .shop {
+           @include btn-style;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .header .img-header {
+            width: 100%;
+        }
+    }
+}

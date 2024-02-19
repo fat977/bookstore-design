@@ -1,0 +1,4 @@
+@mixin focus{
+    box-shadow: none;
+    border: 1px solid $main-color;
+}
