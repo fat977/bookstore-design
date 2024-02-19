@@ -44,12 +44,12 @@ export const Content = () => {
                     {items.map((elem) => {
                         const { id, name, image, price,sale,value } = elem;
                         return (
-                            <div className="item">
+                            <div className="item" key={id}>
                                 <img src={image} alt="Image"/>
                                 <div className='options'>
                                     <i className="fa-solid fa-cart-shopping me-3"></i>
                                     <i className="fa-regular fa-heart me-3"></i>
-                                    <i class="fa-solid fa-eye"></i>
+                                    <i className="fa-solid fa-eye"></i>
                                 </div>
                                 <div className='details  mt-3'>
                                     <h5>{name}</h5>

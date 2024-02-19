@@ -64,11 +64,11 @@ export const BookDetails = () => {
 
                 </div>
             </div>
-            <div class="container py-3">
-                <ul class="nav nav-tabs mb-3 justify-content-center" id="ex1" role="tablist">
-                    <li class="nav-item" role="presentation">
+            <div className="container py-3">
+                <ul className="nav nav-tabs mb-3 justify-content-center" id="ex1" role="tablist">
+                    <li className="nav-item" role="presentation">
                         <a
-                            class="nav-link active"
+                            className="nav-link active"
                             id="ex1-tab-1"
                             data-bs-toggle="tab"
                             href="#ex1-tabs-1"
@@ -76,9 +76,9 @@ export const BookDetails = () => {
                             aria-controls="ex1-tabs-1"
                             aria-selected="true">Description</a>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li className="nav-item" role="presentation">
                         <a
-                            class="nav-link"
+                            className="nav-link"
                             id="ex1-tab-2"
                             data-bs-toggle="tab"
                             href="#ex1-tabs-2"
@@ -86,9 +86,9 @@ export const BookDetails = () => {
                             aria-controls="ex1-tabs-2"
                             aria-selected="false">Author</a>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li className="nav-item" role="presentation">
                         <a
-                            class="nav-link"
+                            className="nav-link"
                             id="ex1-tab-3"
                             data-bs-toggle="tab"
                             href="#ex1-tabs-3"
@@ -97,14 +97,14 @@ export const BookDetails = () => {
                             aria-selected="false">Reviews (1)</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="ex1-content">
+                <div className="tab-content" id="ex1-content">
                     <div
-                        class="tab-pane fade show active"
+                        className="tab-pane fade show active"
                         id="ex1-tabs-1"
                         role="tabpanel"
                         aria-labelledby="ex1-tab-1"
                     >
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
@@ -112,8 +112,8 @@ export const BookDetails = () => {
                             sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
-                    <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                        <div class="row py-5 d-flex align-items-center">
+                    <div className="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                        <div className="row py-5 d-flex align-items-center">
                             <div className="col-lg-3 col-12 col-md-4 author-img text-center text-md-start text-lg-start">
                                 <img src={author} className="img-fluid"
                                     alt="author" />
@@ -129,13 +129,13 @@ export const BookDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                    <div className="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
                         <div className='row'>
                             <div className='col-lg-4'>
                                 <h3>Reviews</h3>
-                                <div class="d-flex justify-content-start review">
+                                <div className="d-flex justify-content-start review">
                                     <img src={user} alt="user" />
-                                    <div class="review-info ms-3">
+                                    <div className="review-info ms-3">
                                         <span className='stars'>
                                             <i className="fa-solid fa-star"></i>
                                             <i className="fa-solid fa-star"></i>
@@ -159,22 +159,22 @@ export const BookDetails = () => {
                                     <i className="fa-regular fa-star"></i>
                                     <i className="fa-regular fa-star"></i>
                                 </span>
-                                <form action="#" class="mt-5">
-                                    <div class="row my-4">
-                                        <div class="col">
-                                            <input type="text" class="form-control p-3" id="name" placeholder="Your name" name="name" />
+                                <form action="#" className="mt-5">
+                                    <div className="row my-4">
+                                        <div className="col">
+                                            <input type="text" className="form-control p-3" id="name" placeholder="Your name" name="name" />
                                         </div>
 
                                     </div>
-                                    <div class="row my-4">
-                                        <div class="col">
-                                            <input type="email" class="form-control p-3" id="email" placeholder="Your email" name="email" />
+                                    <div className="row my-4">
+                                        <div className="col">
+                                            <input type="email" className="form-control p-3" id="email" placeholder="Your email" name="email" />
                                         </div>
 
                                     </div>
 
-                                    <textarea class="form-control  my-4" rows="5" id="comment" name="text" placeholder="Your review"></textarea>
-                                    <button type="submit" class="btn-submit">Submit</button>
+                                    <textarea className="form-control  my-4" rows="5" id="comment" name="text" placeholder="Your review"></textarea>
+                                    <button type="submit" className="btn-submit">Submit</button>
                                 </form>
                             </div>
                         </div>

@@ -83,12 +83,12 @@ export const LatestPublished = () => {
                         const { id, name, image, price,sale,value } = elem;
 
                         return (
-                            <div className="col-6 col-lg-3 col-md-4 item mt-4" id={id}>
+                            <div className="col-6 col-lg-3 col-md-4 item mt-4" key={id}>
                                 <img className="img-fluid" src={image} alt={name} />
                                 <div className='options'>
                                     <i className="fa-solid fa-cart-shopping me-3"></i>
                                     <i className="fa-regular fa-heart me-3"></i>
-                                    <i class="fa-solid fa-eye"></i>
+                                    <i className="fa-solid fa-eye"></i>
                                 </div>
                                 <div className='details mt-3'>
                                     <h5>{name}</h5>

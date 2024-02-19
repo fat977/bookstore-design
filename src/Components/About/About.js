@@ -19,15 +19,15 @@ export const About = () => {
                     <h3>Lorem Ipsum is simply dummy text of the printing and typesetting.</h3>
                     <p className='my-5'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <figure>
-                        <blockquote class="blockquote mb-4">
+                        <blockquote className="blockquote mb-4">
                             <p>
-                                <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
-                                <span class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <i className="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                <span className="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Pariatur sint nesciunt ad itaque aperiam expedita officiis incidunt
                                     minus facere, molestias quisquam impedit inventore.</span>
                             </p>
                         </blockquote>
-                        <figcaption class="blockquote-footer">
+                        <figcaption className="blockquote-footer">
                             Miranda Smith in <cite title="Source Title">The Guardian</cite>
                         </figcaption>
                     </figure>
@@ -46,40 +46,40 @@ export const About = () => {
 
             </div>
 
-            <section class="gradient-custom my-5">
-                <div class="container py-5">
+            <section className="gradient-custom my-5">
+                <div className="container py-5">
                     <h3 className='text-center'>Testimonials</h3>
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col col-xl-10">
-                            <div class="card my-5">
-                                <div class="card-body">
-                                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                                        <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col col-xl-10">
+                            <div className="card my-5">
+                                <div className="card-body">
+                                    <div id="carouselExampleDark" className="carousel carousel-dark slide">
+                                        <div className="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active" data-bs-interval="10000">
-                                                <div class="row d-flex justify-content-center">
-                                                    <div class="col-md-8 col-lg-9 col-xl-8">
-                                                        <div class="d-flex">
-                                                            <div class="flex-shrink-0">
+                                        <div className="carousel-inner">
+                                            <div className="carousel-item active" data-bs-interval="10000">
+                                                <div className="row d-flex justify-content-center">
+                                                    <div className="col-md-8 col-lg-9 col-xl-8">
+                                                        <div className="d-flex">
+                                                            <div className="flex-shrink-0">
                                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                                                                    class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                                                                    className="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
                                                                     height="90" />
                                                             </div>
-                                                            <div class="flex-grow-1 ms-4 ps-3 mb-5">
+                                                            <div className="flex-grow-1 ms-4 ps-3 mb-5">
                                                                 <figure>
-                                                                    <blockquote class="blockquote mb-4">
+                                                                    <blockquote className="blockquote mb-4">
                                                                         <p>
-                                                                            <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
-                                                                            <span class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                            <i className="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                                                            <span className="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing
                                                                                 elit. Pariatur sint nesciunt ad itaque aperiam expedita officiis incidunt
                                                                                 minus facere, molestias quisquam impedit inventore.</span>
                                                                         </p>
                                                                     </blockquote>
-                                                                    <figcaption class="blockquote-footer">
+                                                                    <figcaption className="blockquote-footer">
                                                                         Miranda Smith in <cite title="Source Title">The Guardian</cite>
                                                                     </figcaption>
                                                                 </figure>
@@ -88,26 +88,26 @@ export const About = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="carousel-item" data-bs-interval="2000">
-                                                <div class="row d-flex justify-content-center">
-                                                    <div class="col-md-8 col-lg-9 col-xl-8">
-                                                        <div class="d-flex">
-                                                            <div class="flex-shrink-0">
+                                            <div className="carousel-item" data-bs-interval="2000">
+                                                <div className="row d-flex justify-content-center">
+                                                    <div className="col-md-8 col-lg-9 col-xl-8">
+                                                        <div className="d-flex">
+                                                            <div className="flex-shrink-0">
                                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                                                                    class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                                                                    className="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
                                                                     height="90" />
                                                             </div>
-                                                            <div class="flex-grow-1 ms-4 ps-3 mb-5">
+                                                            <div className="flex-grow-1 ms-4 ps-3 mb-5">
                                                                 <figure>
-                                                                    <blockquote class="blockquote mb-4">
+                                                                    <blockquote className="blockquote mb-4">
                                                                         <p>
-                                                                            <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
-                                                                            <span class="font-italic">Sed ut perspiciatis unde omnis iste natus error sit
+                                                                            <i className="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                                                            <span className="font-italic">Sed ut perspiciatis unde omnis iste natus error sit
                                                                                 voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                                                                                 quae ab illo inventore veritatis.</span>
                                                                         </p>
                                                                     </blockquote>
-                                                                    <figcaption class="blockquote-footer">
+                                                                    <figcaption className="blockquote-footer">
                                                                         Annie Hall <cite title="Source Title">New York Times</cite>
                                                                     </figcaption>
                                                                 </figure>
@@ -116,26 +116,26 @@ export const About = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="carousel-item">
-                                                <div class="row d-flex justify-content-center">
-                                                    <div class="col-md-8 col-lg-9 col-xl-8">
-                                                        <div class="d-flex">
-                                                            <div class="flex-shrink-0">
+                                            <div className="carousel-item">
+                                                <div className="row d-flex justify-content-center">
+                                                    <div className="col-md-8 col-lg-9 col-xl-8">
+                                                        <div className="d-flex">
+                                                            <div className="flex-shrink-0">
                                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-                                                                    class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                                                                    className="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
                                                                     height="90" />
                                                             </div>
-                                                            <div class="flex-grow-1 ms-4 ps-3 mb-5">
+                                                            <div className="flex-grow-1 ms-4 ps-3 mb-5">
                                                                 <figure>
-                                                                    <blockquote class="blockquote mb-4">
+                                                                    <blockquote className="blockquote mb-4">
                                                                         <p>
-                                                                            <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
-                                                                            <span class="font-italic">At vero eos et accusamus et iusto odio dignissimos
+                                                                            <i className="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                                                            <span className="font-italic">At vero eos et accusamus et iusto odio dignissimos
                                                                                 qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
                                                                                 et quas molestias excepturi sint amet dolore.</span>
                                                                         </p>
                                                                     </blockquote>
-                                                                    <figcaption class="blockquote-footer">
+                                                                    <figcaption className="blockquote-footer">
                                                                         Jason More in <cite title="Source Title">Smash Magazine</cite>
                                                                     </figcaption>
                                                                 </figure>
@@ -145,13 +145,13 @@ export const About = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
+                                        {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span className="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
+                                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span className="visually-hidden">Next</span>
                                         </button> */}
                                     </div>
                                 </div>

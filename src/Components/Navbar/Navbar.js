@@ -77,7 +77,7 @@ export const Navbar = () => {
             {/* search */}
             <div className="search">
                 <input type="search" placeholder="Search" />
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
             </div>
 
             {/* search on sm screen */}
@@ -88,7 +88,7 @@ export const Navbar = () => {
                         <div className="modal-body">
                             <div className="search">
                                 <input type="search" placeholder="Search" />
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i className="fa-solid fa-magnifying-glass"></i>
                             </div>
                         </div>
                     </div>
@@ -100,54 +100,54 @@ export const Navbar = () => {
                 <i className="fa-regular fa-heart me-3"></i>
 
                 <a className="form-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#"><i className="fa-regular fa-user me-3"></i></a>
-                <div class="dropdown-menu me-0 ms-auto p-3">
+                <div className="dropdown-menu me-0 ms-auto p-3">
 
                     <form action="#" id="login-form" >
                         <h3 className="text-center">Login</h3>
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" />
-                            <label for="email">Email</label>
+                        <div className="form-floating mb-3 mt-3">
+                            <input type="text" className="form-control" id="email" placeholder="Enter email" name="email" />
+                            <label htmlFor="email">Email</label>
                         </div>
 
-                        <div class="form-floating mt-3 mb-3">
-                            <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd" />
-                            <label for="pwd">Password</label>
+                        <div className="form-floating mt-3 mb-3">
+                            <input type="text" className="form-control" id="pwd" placeholder="Enter password" name="pswd" />
+                            <label htmlFor="pwd">Password</label>
                         </div>
-                        <div class="login_remember_box my-3 d-flex justify-content-between">
-                            <div class="form-check mt-0">
-                                <label class="form-check-label">Remember me</label>
-                                <input class="form-check-input" type="checkbox" id="check1" name="option1"
+                        <div className="login_remember_box my-3 d-flex justify-content-between">
+                            <div className="form-check mt-0">
+                                <label className="form-check-label">Remember me</label>
+                                <input className="form-check-input" type="checkbox" id="check1" name="option1"
                                     value="something" />
                             </div>
-                            <a href="#" class="forget_password text-danger">
+                            <a href="#" className="forget_password text-danger">
                                 Forgot Password
                             </a>
                         </div>
-                        <button type="submit" class="btn-login d-block w-100">SIGN IN</button>
-                        <p class="text-center register mt-3" onClick={form} id="register-form-link">Create account</p>
+                        <button type="submit" className="btn-login d-block w-100">SIGN IN</button>
+                        <p className="text-center register mt-3" onClick={form} id="register-form-link">Create account</p>
                     </form>
 
                     <form action="#" className="d-none" id="register-form">
                         <h3 className="text-center">Register</h3>
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-control" id="f-name" placeholder="Enter First Name" name="f-name" />
-                            <label for="f-name">First Name</label>
+                        <div className="form-floating mb-3 mt-3">
+                            <input type="text" className="form-control" id="f-name" placeholder="Enter First Name" name="f-name" />
+                            <label htmlFor="f-name">First Name</label>
                         </div>
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-control" id="l-name" placeholder="Enter Last Name" name="l-name" />
-                            <label for="l-name">Last Name</label>
+                        <div className="form-floating mb-3 mt-3">
+                            <input type="text" className="form-control" id="l-name" placeholder="Enter Last Name" name="l-name" />
+                            <label htmlFor="l-name">Last Name</label>
                         </div>
-                        <div class="form-floating mb-3 mt-3">
-                            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" />
-                            <label for="email">Email</label>
+                        <div className="form-floating mb-3 mt-3">
+                            <input type="text" className="form-control" id="email" placeholder="Enter email" name="email" />
+                            <label htmlFor="email">Email</label>
                         </div>
-                        <div class="form-floating mt-3 mb-3">
-                            <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd" />
-                            <label for="pwd">Password</label>
+                        <div className="form-floating mt-3 mb-3">
+                            <input type="text" className="form-control" id="pwd" placeholder="Enter password" name="pswd" />
+                            <label htmlFor="pwd">Password</label>
                         </div>
 
-                        <button type="submit" class="btn-register d-block w-100">Register</button>
-                        <p class="text-center login mt-3" id="login-form-link">Already have an account ?</p>
+                        <button type="submit" className="btn-register d-block w-100">Register</button>
+                        <p className="text-center login mt-3" id="login-form-link">Already have an account ?</p>
                     </form>
                 </div>
 
@@ -167,11 +167,11 @@ export const Navbar = () => {
                 <hr className="w-75 d-block mx-auto" />
                 <div className="offcanvas-body">
                     <div className="">
-                        <div class="d-flex justify-content-start cast">
+                        <div className="d-flex justify-content-start cast">
                             <img src={book1} alt="book-cart" className="w-25 img-fluid" />
-                            <div class="cart-info ms-3">
-                                <h6 class="">Extinct oriental man</h6>
-                                <p class=""> 1 X $120.00 </p>
+                            <div className="cart-info ms-3">
+                                <h6 className="">Extinct oriental man</h6>
+                                <p className=""> 1 X $120.00 </p>
                             </div>
                         </div>
                     </div>

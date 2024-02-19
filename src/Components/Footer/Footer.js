@@ -19,19 +19,19 @@ export const Footer = () => {
                     <div className="col-lg-7 text-center px-3 ps-lg-5 mt-5 mt-lg-0 center-content">
                         <img src={logo} alt="logo" className="img-fluid" />
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <span class="mt-3 text-center social">
-                            <i class="fa-brands fa-facebook me-2"></i>
-                            <i class="fa-brands fa-twitter me-2"></i>
-                            <i class="fa-brands fa-instagram me-2"></i>
-                            <i class="fa-brands fa-youtube"></i>
+                        <span className="mt-3 text-center social">
+                            <i className="fa-brands fa-facebook me-2"></i>
+                            <i className="fa-brands fa-twitter me-2"></i>
+                            <i className="fa-brands fa-instagram me-2"></i>
+                            <i className="fa-brands fa-youtube"></i>
                         </span>
                     </div>
                     <div className="col-lg-3 contact mt-5 mt-lg-0">
                         <h5 className="text-center">Contact</h5>
-                        <div class="d-flex flex-column">
-                            <div><i class="fa-solid fa-phone pe-3"></i> +365-458-3258</div>
-                            <div><i class="fa-solid fa-envelope pe-3"></i>bookstore@gmail.com</div>
-                            <div><i class="fa-solid fa-location-dot pe-3"></i>4096 N Highland St, Arlington, VA 32101, USA</div>
+                        <div className="d-flex flex-column">
+                            <div><i className="fa-solid fa-phone pe-3"></i> +365-458-3258</div>
+                            <div><i className="fa-solid fa-envelope pe-3"></i>bookstore@gmail.com</div>
+                            <div><i className="fa-solid fa-location-dot pe-3"></i>4096 N Highland St, Arlington, VA 32101, USA</div>
 
                         </div>
                     </div>
