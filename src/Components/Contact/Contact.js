@@ -1,7 +1,7 @@
 
 import '../Contact/Contact.scss';
 import { Link } from "react-router-dom";
-import contact from "../../assets/img/contact/transparent-cartoon-image-skateboard-man-jumping-large-wall-of-cartoon-man-skateboarding-in-front-of-text6557888a8fbb99.2223359217002354025887.png";
+import contact from "../../assets/img/contact/transparent.png";
 import location from "../../assets/img/contact/Simple-Location-Picker.webp";
 export const Contact = () => {
 
