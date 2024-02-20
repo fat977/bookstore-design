@@ -25,15 +25,14 @@ export const Content = () => {
     };
 
     const [items, setItems] = useState(Books);
- /*    const [active, setActive] = useState(false);
+    const [active, setActive] = useState(false);
     const filterItem = (categItem) => {
         const updateItems = Books.filter((curElem) => {
             return curElem.category === categItem;
         });
-
         setItems(updateItems);
         setActive(true);
-    }; */
+    }; 
 
     return (
         <section className="best-selling">

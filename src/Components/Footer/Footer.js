@@ -3,9 +3,9 @@ import logo from "../../assets/img/logo/kisspng-book-image-magic-author-portable
 export const Footer = () => {
 
     return (
-        <section className="footer mt-5">
-            <div className="bg-light px-5 py-5">
-                <div className="row">
+        <section className="footer bg-light mt-5">
+            <div className="container py-5">
+                <div className="row container">
                     <div className="col-lg-2 text-center text-lg-start">
                         <h5>Categories</h5>
                         <ul>
