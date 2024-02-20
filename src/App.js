@@ -9,8 +9,9 @@ import { About } from './Components/About/About';
 import { Contact } from './Components/Contact/Contact';
 function App() {
   return (
+    <div className="App">
     <Router>
-      <div className="App">
+      
         <Navbar/>
         <Routes>
             <Route path ="/" element ={<Home/>} />
@@ -21,8 +22,9 @@ function App() {
         </Routes>
         <Footer/>
         
-      </div>
+      
     </Router>
+    </div>
   );
 }
 
