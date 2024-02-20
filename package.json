@@ -2,7 +2,7 @@
   "home": "https://fat977.github.io/bookstore-design",
   "name": "bookstore",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mui/material": "^5.15.10",
     "@mui/styled-engine-sc": "^6.0.0-alpha.16",
