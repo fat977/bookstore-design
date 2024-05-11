@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+.header {
+  position: relative;
+}
+.header .img-header {
+  width: 900px;
+  height: 500px;
+}
+.header .box {
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  height: 350px;
+  width: 400px;
+  top: 50px;
+  box-shadow: 21px 21px rgba(236, 230, 230, 0.7);
+}
+.header .box .shop {
+  border-radius: 50px;
+  background: linear-gradient(90.21deg, rgb(241, 77, 93) -5.91%, #21213a 111.58%);
+  color: #ffffff;
+  border: 0;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 991px) {
+  .header .header .img-header {
+    width: 100%;
+  }
+}/*# sourceMappingURL=header.css.map */

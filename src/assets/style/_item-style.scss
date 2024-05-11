@@ -2,15 +2,19 @@
     position: relative;
     text-align: center;
 
+    .img-details{
+        position: relative;
+    } 
     img {
+        
         width: 90%;
-        height: 350px;
+        height: 250px !important;
         margin: auto;
     }
 
     .options {
         position: absolute;
-        top: 320px;
+        top: 240px;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: $white-color;

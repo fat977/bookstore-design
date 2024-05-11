@@ -44,7 +44,7 @@ export const Content = () => {
                         const { id, name, image, price,sale,value } = elem;
                         return (
                             <div className="item" key={id}>
-                                <img src={image} alt={image}/>
+                                <img src={image} alt={image} height={'300px'}/>
                                 <div className='options'>
                                     <i className="fa-solid fa-cart-shopping me-3"></i>
                                     <i className="fa-regular fa-heart me-3"></i>

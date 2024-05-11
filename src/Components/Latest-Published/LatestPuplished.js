@@ -19,7 +19,7 @@ export const LatestPublished = () => {
             <div className="container">
                 <h2>Latest Published Books</h2>
                 <ul className="nav nav-pills justify-content-center" role="tablist">
-                    <li className="nav-item me-2">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link active" data-bs-toggle="pill"
                             href="javascrip:0;"
@@ -28,7 +28,7 @@ export const LatestPublished = () => {
                             All
                         </a>
                     </li>
-                    <li className="nav-item me-2">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link" data-bs-toggle="pill"
                             href="javascrip:0;"
@@ -37,7 +37,7 @@ export const LatestPublished = () => {
                             Horror
                         </a>
                     </li>
-                    <li className="nav-item me-2">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link" data-bs-toggle="pill"
                             href="javascrip:0;"
@@ -46,7 +46,7 @@ export const LatestPublished = () => {
                             Romance
                         </a>
                     </li>
-                    <li className="nav-item me-2">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link" data-bs-toggle="pill"
                             href="javascrip:0;"
@@ -55,7 +55,7 @@ export const LatestPublished = () => {
                             History
                         </a>
                     </li>
-                    <li className="nav-item me-2">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link" data-bs-toggle="pill"
                             href="javascrip:0;"
@@ -64,7 +64,7 @@ export const LatestPublished = () => {
                             Science Fiction
                         </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item m-2">
                         <a
                             className="nav-link" data-bs-toggle="pill"
                             href="javascrip:0;"

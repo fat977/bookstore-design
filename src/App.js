@@ -9,7 +9,7 @@ import { About } from './Components/About/About';
 import { Contact } from './Components/Contact/Contact';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{maxWidth:"100%"}}>
     <Router>
       
         <Navbar/>

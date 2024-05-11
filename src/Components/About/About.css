@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+ol li .link {
+  color: rgb(241, 77, 93);
+}
+
+.about {
+  position: relative;
+}
+.about .about-header {
+  height: 650px;
+  margin-bottom: 250px;
+}
+.about .content {
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  height: 470px;
+  width: 600px;
+  top: 400px;
+}
+
+@media screen and (max-width: 764px) {
+  .content {
+    width: 100%;
+    top: 200px;
+  }
+  .about-header {
+    height: 300px;
+    margin-bottom: 500px;
+  }
+}
+.about-img {
+  height: 300px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90.21deg, rgba(241, 77, 93, 0.209) -5.91%, rgba(33, 33, 58, 0.1333333333) 111.58%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(90.21deg, rgba(241, 77, 93, 0.209) -5.91%, rgba(33, 33, 58, 0.1333333333) 111.58%);
+}/*# sourceMappingURL=About.css.map */

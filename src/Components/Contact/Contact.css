@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+ol li .link {
+  color: rgb(241, 77, 93);
+}
+
+.location img {
+  height: 400px;
+}
+
+form.message input {
+  border-radius: 50px;
+}
+form.message .form-control:focus {
+  box-shadow: none;
+  border: 1px solid rgb(241, 77, 93);
+}
+form.message button.send-msg {
+  border-radius: 50px;
+  background: linear-gradient(90.21deg, rgb(241, 77, 93) -5.91%, #21213a 111.58%);
+  color: #ffffff;
+  border: 0;
+  padding: 10px 20px;
+}/*# sourceMappingURL=Contact.css.map */

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer ul li {
+  margin-top: 15px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #21213a;
+}
+.footer ul li a:hover {
+  color: rgb(241, 77, 93);
+}
+.footer .center-content img {
+  width: 40%;
+}
+.footer .center-content .social i:hover {
+  color: rgb(241, 77, 93);
+}
+.footer .contact .flex-column {
+  padding-left: 65px;
+}
+.footer .contact .flex-column i {
+  margin-top: 15px;
+  color: #21213a;
+}
+.footer .bottom-footer {
+  background-color: #21213a;
+}/*# sourceMappingURL=Footer.css.map */

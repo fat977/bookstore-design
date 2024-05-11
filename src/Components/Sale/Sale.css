@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+.sale .offer-details .offer-value {
+  font-size: 90px;
+  font-weight: 700;
+  background-color: rgb(241, 77, 93);
+  width: 400px;
+}
+.sale .offer-details .offer-button {
+  background-color: transparent;
+  border: 1px solid #21213a;
+  box-sizing: border-box;
+  color: #21213a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.sale .offer-details .offer-button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+.sale .offer-details .offer-button:hover::before {
+  background-color: rgb(241, 77, 93);
+}
+.sale .offer-details .offer-button::before {
+  background-color: rgba(241, 77, 93, 0.146);
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+.sale .offer-details .offer-button:hover,
+.sale .offer-details .offer-button:active {
+  outline: 0;
+}
+@media (min-width: 768px) {
+  .sale .offer-button {
+    padding: 16px 32px;
+  }
+}/*# sourceMappingURL=Sale.css.map */

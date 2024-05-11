@@ -48,7 +48,7 @@ export const Navbar = () => {
     return (
         <nav className={scrolled ? 'scrolled bg-light navbar fixed container-fluid d-flex justify-content-around stickyTop align-items-center my-5 py-4 shadow' : 'container-fluid navbar d-flex justify-content-around align-items-center my-5'}>
             {/* logo with offcanvas */}
-            <div>
+            <>
                 <div className="d-flex menu">
                     <div className="container" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         <div className="bar1"></div>
@@ -58,7 +58,7 @@ export const Navbar = () => {
                     <img src={logo} alt="logo" />
                 </div>
 
-                <div className="offcanvas offcanvas-start" data-bs-dismiss="offcanvas" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div className="offcanvas offcanvas-start w-75" data-bs-dismiss="offcanvas" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div className="offcanvas-header">
                         <h3 className="offcanvas-title" id="offcanvasExampleLabel">Book Store</h3>
                         <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -72,7 +72,7 @@ export const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </>
 
             {/* search */}
             <div className="search">
@@ -159,7 +159,7 @@ export const Navbar = () => {
             </div>
 
             {/* offcanvas of cart icon */}
-            <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+            <div className="offcanvas offcanvas-end w-75" tabIndex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
                 <div className="offcanvas-header">
                     <h5 className="offcanvas-title" id="offcanvasExampleLabel">Cart</h5>
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>

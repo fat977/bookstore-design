@@ -29,9 +29,9 @@ export const Footer = () => {
                     <div className="col-lg-3 contact mt-5 mt-lg-0">
                         <h5 className="text-center">Contact</h5>
                         <div className="d-flex flex-column">
-                            <div><i className="fa-solid fa-phone pe-3"></i> +365-458-3258</div>
-                            <div><i className="fa-solid fa-envelope pe-3"></i>bookstore@gmail.com</div>
-                            <div><i className="fa-solid fa-location-dot pe-3"></i>4096 N Highland St, Arlington, VA 32101, USA</div>
+                            <div><i className="fa-solid fa-phone pe-2"></i> +365-458-3258</div>
+                            <div><i className="fa-solid fa-envelope pe-2"></i>bookstore@gmail.com</div>
+                            <div><i className="fa-solid fa-location-dot pe-2"></i>4096 N Highland St, Arlington, VA 32101, USA</div>
 
                         </div>
                     </div>
