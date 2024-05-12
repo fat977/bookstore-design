@@ -139,7 +139,7 @@ export const Category = () => {
         </div>
         <div className="col-lg-9 filter-results mt-4">
           <select
-            className="form-select w-25 p-2 me-0 ms-auto"
+            className="form-select w-50 me-0 ms-auto"
             aria-label="Default select example"
           >
             <option value={""}>Browse by</option>
