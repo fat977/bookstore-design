@@ -21,7 +21,7 @@ export const BookDetails = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='container' style={{overflowX : "hidden"}}>
             <div className="row align-items-start mx-0 ms-lg-5 py-5">
                 <div className="col-lg-4 col-12 col-md-6 book-img">
                     <img src={book1} className=""

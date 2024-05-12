@@ -6,7 +6,7 @@ ol li .link{
 
 .about {
     position: relative;
-
+    max-width: 100%;
     .about-header {
         height: 650px;
         margin-bottom: 250px;
@@ -16,7 +16,7 @@ ol li .link{
         z-index: 1;
         background: $white-color;
         height: 470px;
-        width: 600px;
+        //width: 600px;
         top: 400px;
     }
 }
@@ -30,6 +30,12 @@ ol li .link{
     .about-header {
         height: 300px;
         margin-bottom: 500px;
+    }
+
+    .about-info{
+        margin-top: 200px;
+        /* max-width: 100%;
+        overflow-x: hidden; */
     }
 
 }

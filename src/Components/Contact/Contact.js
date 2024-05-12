@@ -6,7 +6,7 @@ import location from "../../assets/img/contact/Simple-Location-Picker.webp";
 export const Contact = () => {
 
     return (
-        <div className='container'>
+        <div className='container' style={{overflowX : "hidden"}}>
             <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                     <li className="breadcrumb-item"><Link className='link' to="/">Home</Link></li>

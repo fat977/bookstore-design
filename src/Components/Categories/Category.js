@@ -27,7 +27,7 @@ export const Category = () => {
   });
 
   return (
-    <div className="container">
+    <div className="container" style={{overflowX : "hidden",overflowY:"hidden"}}>
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">

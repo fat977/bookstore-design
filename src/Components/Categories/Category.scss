@@ -42,17 +42,14 @@
 
     .item {
         @include item;
+        img {
+            width: 90% !important;
+            height: 250px !important;
+        }
+        .options {
+            top: 220px !important;
+        }
     }
 }
 
-/* .col-lg-4{
-    width: 30%;
-} */
-/* 
-@media screen and (max-width: 764px) {
-    .col-lg-4{
-        width: 40%;
-    }
-    
-} */
 

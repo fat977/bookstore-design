@@ -5,7 +5,7 @@
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
-    
+    width: 100%;
     .menu {
         img {
             width: 50px;
@@ -155,13 +155,16 @@
         }
         .icons{
             .dropdown-menu{
-                margin:0  35px !important;
+                margin:0  10px !important;
             }
+        }
+
+        .offcanvas{
+            width: 75%;
         }
     }
 
     .cart-buttons button {
-        width: 43%;
         @include btn-style;
     }
 }

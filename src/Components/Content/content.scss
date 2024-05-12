@@ -2,7 +2,7 @@
 @import '../../assets/style/item-style';
 
 .best-selling {
-    margin-top: 650px;
+    margin-top: 65px;
     padding: 0 0 50px 0;
     position: relative;
 
@@ -12,6 +12,13 @@
     }
 
     .item {
-       @include item;
+        @include item;
+        .details {
+            .sale {
+                .badge {
+                    left: 15px !important;
+                }
+            }
+        }
     }
 }

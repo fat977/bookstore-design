@@ -45,7 +45,7 @@ export const Header = () => {
     }
 
     return (
-        <div className="container header">
+        <div className="container header" style={{overflowX : "hidden"}}>
             <img src={logo} className="img-header float-end" alt="header" />
             <div className="box p-5">
                 <p>My tip. Keep your mind and your notebook open to real life.</p>

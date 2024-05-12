@@ -15,7 +15,7 @@ export const LatestPublished = () => {
     };
 
     return (
-        <section className="latest-published my-5">
+        <section className="latest-published my-5" style={{overflowX : "hidden"}}>
             <div className="container">
                 <h2>Latest Published Books</h2>
                 <ul className="nav nav-pills justify-content-center" role="tablist">
@@ -83,7 +83,7 @@ export const LatestPublished = () => {
                         const { id, name, image, price,sale,value } = elem;
 
                         return (
-                            <div className="col-6 col-lg-3 col-md-4 item mt-4" key={id}>
+                            <div className="col-12 col-lg-3 col-md-4 item mt-4" key={id}>
                                 <img className="img-fluid" src={image} alt={name} />
                                 <div className='options'>
                                     <i className="fa-solid fa-cart-shopping me-3"></i>

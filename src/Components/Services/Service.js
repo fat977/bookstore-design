@@ -2,7 +2,7 @@ import "../Services/Service.scss";
 export const Service = () => {
     
     return (
-        <section className="service my-5">
+        <section className="service my-5" style={{overflowX : "hidden"}}>
             <div className="container">
                 <div className="row text-center py-5">
                     <div className="col-6 col-lg-3 mt-3">

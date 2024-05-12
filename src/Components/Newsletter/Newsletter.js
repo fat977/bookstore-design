@@ -3,7 +3,7 @@ import "../Newsletter/Newsletter.scss";
 export const Newsletter = () => {
     const [email, setEmail] = useState('');
     return (
-        <section className="newsletter my-5">
+        <section className="newsletter my-5" style={{overflowX : "hidden"}}>
             <div className="container">
                 <div className="row py-5">
                     <div className="col-12 col-lg-5 col-md-12">
