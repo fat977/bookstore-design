@@ -300,7 +300,7 @@ export const Navbar = () => {
           <div className="float-start">Total</div>
           <div className="float-end">$120.00</div>
         </div>
-        <div className=" mx-3 cart-buttons mb-4 mt-2">
+        <div className="mx-3 cart-buttons mb-4 mt-2">
           <button type="button" className="float-start">
             Add to cart
           </button>
