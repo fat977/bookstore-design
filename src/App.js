@@ -10,7 +10,12 @@ import { Contact } from './Components/Contact/Contact';
 function App() {
   return (
     <div className="App" style={{maxWidth:"100%"}}>
-    <Router>
+    <Router
+     future={{
+      v7_relativeSplatPath: true,
+      v7_startTransition: true,
+    }}
+    >
       
         <Navbar/>
         <Routes>
